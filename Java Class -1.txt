@@ -1,0 +1,124 @@
+java programming - 
+
+jdk - java core library + jre 
+eclipse - intelligent editor to write program 
+
+computer programming : providing instructions to the computer 
+
+java, python, C# - compiler or interpreter 
+
+java -jdk - machine language 
+
+Programming - basic syntax - structure 
+
+types of problems to solve 
+
+1. monotonous 
+2. big calculation 
+
+components of problems 
+
+1. data
+2. operations or logic 
+
+
+specific programming structure - java 
+
+java - oop 
+
+1. procedural programming - write instructions line by line and computer will execute 
+2. OOP programming - you make your own design of something 
+
+Basic Unit of Java - class 
+
+runnable class - you can run the class - you can have some instructions to be executed line by line 
+main method of java - starting point of java code - procedural programming 
+
+
+non runnable class - you can not run the class 
+we don't have the main method of java - oop 
+
+eclipse - programming editor 
+workspace - basically a folder 
+jdk is the compiler 
+
+when we are naming something - no space 
+camel case 
+
+package is a java folder that will store all the classes 
+
+.java file is created - code file - every class creates a .java file 
+
+
+scope - class, methods, conditonal statment {}- the limit where the code is applicable 
+statments - statement ends with ; 
+
+how to store data - number, name, 
+datatype - integer, string, boolean, double, char
+java case sensitive language - a A 
+
+
+datatype variable = data ; 
+
+15 
+100.12
+int x = 15; 
+
+storing 15 in the variable x where x is a integer type variable 
+
+double y = 100.12; 
+
+Michael 
+
+String name = "Michael";
+
+String carplate = "34873";
+
+declaretion + initialization; 
+
+int x; 
+
+x= 15; 
+x=100;
+
+int x= 15; 
+String name = "Michael"; 
+double y = 100.12; 
+boolean test = true; 
+char c = '7';
+
+int a; 
+
+a= 10.23;
+
+
+
+
+
+
+how to print something in the console- 
+how to take inputs from the console - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+

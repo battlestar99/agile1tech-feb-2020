@@ -1,0 +1,99 @@
+Java Class - 2 
+
+datatype
+variables
+data
+
+14
+x
+int 
+
+int abc = 87 ; 
+
+int, string, boolean, double 
+12
+"dfljdfj"
+true/false 
+10.18 
+
+int x = 100; 
+String name = "John";
+
+scope , statement 
+class, methods, control statement {}
+; 
+
+System.out.println("fdafda");
+System.out.println("name");
+
+{}
+class {
+
+
+
+}
+
+main {
+
+}
+
+control statments 
+
+conditional - if/else/else if 
+looping - for , while - iterating inside the same code 
+executing the same code again and again 
+
+runnable class - java application - main method of java 
+
+non-runnable class 
+
+
+1. if/else - else only get executed if the last if is false 
+
+2. else will only get executed if all conditions are false 
+
+looping - 
+
+for 
+
+while 
+
+problem : calculating monthly payment of a car 
+
+loan amount / 60 
+
+car base price 
+dealr price 
+downpayment
+
+interest - finance 
+
+tax
+financedamount 
+
+financed/60
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
