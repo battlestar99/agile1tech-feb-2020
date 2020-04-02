@@ -1,5 +1,7 @@
 package basicJava;
 
+import FunctionsTest.mathCalculation;
+
 public class helloWorld {
    
 	
@@ -15,6 +17,10 @@ public class helloWorld {
 		System.out.println(x);
 		
 		System.out.println(z);
+		
+		
+		mathCalculation mc = new mathCalculation ();
+		
 		
 	}
 	

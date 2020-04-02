@@ -1,0 +1,75 @@
+Selenium Class - 1 
+
+Function - block of code 
+parameter - input - multiple - data
+return - output - one - data 
+
+Non-runnable class - doesn't have main method 
+
+Test class
+public int go(String x){
+//  block of code
+return 78; 
+}
+
+how to use a function: 
+
+Test object = new Test(); 
+object.go(); 
+
+Java Library - collection of functions already written by some programmars 
+some usuable code are already there so anyone can use that 
+
+
+Selenium setup - jar files 
+
+maven repository - jar files 
+
+
+step 1 : Have the selenium jar files 
+step 2: setup browser driver 
+
+Test case for functional testing for web-based application 
+
+1. opening up the browser
+2. navigate to AUT "www.facebook.com"
+3. reading the title of the page 
+4. reading the url of the webpage 
+5. close the browser 
+
+what is a webelement or web object 
+
+int string boolean 
+
+webelement x =
+
+an user can interact within a page 
+web element - text box, button, radio button, check box, drop down
+action - type, click, click, click, select 
+
+code for a webelemene t- HTML 
+
+<input type="text" class="inputtext _58mg _5dba _2ph-" data-type="text" 
+name="lastname" value="" aria-required="true" placeholder="" aria-label="Last name" id="u_0_o">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
