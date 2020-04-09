@@ -1,0 +1,120 @@
+
+
+wait type : 
+
+implicit wait - make sure all the webelements in the pare are loaded within certain time - selenium library
+make sures all the weblements in the page is loaded 
+
+thread.sleep only stops the code for specific seconds or time ( 5 seconds) - java core library
+
+explicit wait - make sure any specific webelement is loaded in the page 
+
+insurance website 
+
+yes
+
+school name: 
+
+How to find weblements:
+UI/GUI - HTML, CSS
+HTML - hypertext markup language 
+CSS - cascading style sheet  
+Javascripts - adding simple logic 
+
+1. we are finding web elements using chrome developer tools  
+
+first name text box 
+
+<input type="text" class="inputtext _58mg _5dba _2ph-" 
+data-type="text" name="firstname" value="" aria-required="true" placeholder="" 
+aria-label="First name" id="u_0_m" style="background-image: url, testno = '12'> 
+
+
+relative xpath
+//tagname[@attribute='value']
+
+//input[@name='firstname']
+//input[@id='u_0_m']
+//input[@aria-label="First name"]
+//input[@testno='12']
+//*[@testno='12']
+
+//*[@id="u_0_m"]
+
+absolute xpath - doesnt depend on the attribute and value - css path
+/html/body/div[1]/div[3]/div[1]/div/div/div/div[2]/div[2]/div/div[1]/div/div[1]/form/div[1]/div[1]/div[1]/div[1]/div/div[1]/input
+
+
+// and / 
+
+
+
+css selector 
+
+tagname[attribute='value']
+
+input[testno='12']
+
+
+submit button
+<button type="submit" class="_6j mvm _6wk _6wl _58mi _3ma _6o _6v" 
+name="websubmit" id="u_0_13">Sign Up</button>
+
+links
+
+<a href="/directory/people/" title="Browse our people directory.">People</a>
+
+<select ..........................> drop down menu 
+
+
+
+selenium supports few attributes 
+
+name
+id
+xpath
+css selector 
+
+xpath
+//tagname[@attribute='value']
+
+//input[@name='firstname']
+//input[@name='firstname']
+css selector
+tagname[attribute='value']
+
+class
+tag
+input
+
+
+links - 
+
+
+linktext
+partiallinktext
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

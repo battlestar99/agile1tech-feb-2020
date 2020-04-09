@@ -1,0 +1,113 @@
+runnable class - main method of java - procedural programming 
+
+non-runnable class - doesnt have a main method - OOP 
+
+Functions are block of code that we write to re-use 
+
+int x = 78; 
+int y = 45; 
+x+y; 
+print(x+y);
+
+public static void main(String args[]){
+// starting point of any java code 
+}
+
+general functions are block of code that we can re-use 
+Function - Method 
+
+1. How to create a function
+2. how to use a function
+3. how to use a function that you didn't create 
+
+public returnDatatype functionanme(inputs){
+
+
+return 
+}
+
+funcion is used from a runnable class 
+function is created in a non-runnable class 
+
+procedural programming concept - non-runnble class - storage of functions 
+
+how to create an object - 
+
+classname objectName = new classname(); 
+
+
+
+int x = 12;
+
+int x; 
+x=12; 
+
+int x=12; 
+
+classname objectname; 
+objectname=new classname; 
+
+parameters - input that you are providing
+return type - output you are getting from the function 
+
+
+input - output
+parameters and return type of a function depends on what the programmer wants to do with the function
+
+Class - 5 
+class Test
+
+public void dosomething(){
+
+int x = 12; 
+int y = 15; 
+
+int sum = x+y; 
+
+
+}
+
+webelements - web objects 
+
+text box - type some text 
+button - click 
+radio button - click 
+check box - click 
+
+drop down - select something
+links - clicking in a link will navigate us to another page 
+
+
+attributes of the web elements 
+id
+name
+xpath
+css selector
+
+anchor tag - a tag - href
+
+linktext
+partiallinktext 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

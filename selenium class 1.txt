@@ -47,14 +47,24 @@ an user can interact within a page
 web element - text box, button, radio button, check box, drop down
 action - type, click, click, click, select 
 
-code for a webelemene t- HTML 
-
+code for a webelemenet- HTML 
+Last Name Text box
 <input type="text" class="inputtext _58mg _5dba _2ph-" data-type="text" 
 name="lastname" value="" aria-required="true" placeholder="" aria-label="Last name" id="u_0_o">
 
+name = Anik
+email- anik@agile1tech.com
+ssn - dfasdf
+carname - nissan
+address- fairfax
 
+Email text box
+<input type="text" class="inputtext _58mg _5dba _2ph-" data-type="text" name="reg_email__" value="" 
+aria-required="true" 
+placeholder="" aria-label="Mobile number or email" id="u_0_r" aria-describedby="js_97">
 
-
+id
+name
 
 
 
