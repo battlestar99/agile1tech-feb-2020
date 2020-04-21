@@ -1,0 +1,87 @@
+Java - programming language 
+selenium - interact with web elements
+
+
+
+Test results 
+Test scripts should be organized - 
+Test suits - collection of test cases 
+data driven testing - getting data outside of the test scripts 
+
+Testing Library - Testing framework 
+TestNG - Junit 
+Cucumber
+
+we need a plugin for the library in eclipse 
+The structure of the library is creared - we need insert our code in that specific structure 
+
+Control the squence of the test is annotations
+
+lets setup TestNG 
+
+TestNG library - jar file 
+TestNG plugin - eclips plugin for TestNG 
+
+
+user story: 
+
+creating a new module for new user to sign up through google accounts 
+
+
+
+validate 10 different things - 10 test cases 
+validate 1 thing - 1 test case 
+
+manual test cases - 1,10
+
+automation test scripts - 
+
+Test case: 
+
+1. opening up google chorme browser
+2. naviagating to the home page 
+3. user should find out the local link
+4. clicking the local link should navigate to local page
+5. user should find specific local page title and url
+6. user should be able to use the browser back option to return to home page 
+
+
+TestNG 
+
+we dont need main method of java anymore 
+
+works on annoatations - and annotations have specific sequence 
+
+each annotation comes with a function - when we tell the annoation will execute the function 
+corresponded with the annoation get executed 
+
+1 class - 1 test script - 1 Test annotation - we can have multiple annoations
+
+BeforeTest
+Test - where we write our test 
+AfterTest
+
+
+
+
+@BeforeTest
+public void beforetest(){
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

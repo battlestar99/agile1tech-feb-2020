@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="13538" started-at="2020-04-21T01:29:12Z" finished-at="2020-04-21T01:29:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="13538" started-at="2020-04-21T01:29:12Z" finished-at="2020-04-21T01:29:25Z">
+      <class name="scripts.elementCheck">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:scripts.elementCheck@400cff1a]" name="beforeTest" is-config="true" duration-ms="8165" started-at="2020-04-20T21:29:12Z" finished-at="2020-04-20T21:29:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="validateElementPresent()[pri:0, instance:scripts.elementCheck@400cff1a]" name="validateElementPresent" duration-ms="4329" started-at="2020-04-20T21:29:20Z" finished-at="2020-04-20T21:29:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateElementPresent -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:scripts.elementCheck@400cff1a]" name="afterTest" is-config="true" duration-ms="1010" started-at="2020-04-20T21:29:24Z" finished-at="2020-04-20T21:29:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- scripts.elementCheck -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

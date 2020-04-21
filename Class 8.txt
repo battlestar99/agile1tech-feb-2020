@@ -1,0 +1,112 @@
+Class - 8 
+
+how to interact with web elements? 
+
+java - function 
+
+Selenium - programming 
+libraries - jar files 
+we want to interact with web based application 
+
+validate a requirment 
+Test Case - step by step instructions of how we execute a test 
+pass/fail criterion 
+comparing actual with expected value 
+expected - we should know that before we exectue test - requirement docs - 
+actual - after executing test case 
+if value same - test case passes 
+if not - fails 
+
+defect/bug 
+
+manually test it - 
+
+log the defect or bug 
+
+Test case 
+
+step 1 : opening a browser
+step 2: navigatin to url 
+step 3 : entering username
+step 4: enter password
+step 5: click on submit button
+step 6: user should be in home page after login 
+
+Test Script : 
+
+it has to validate something 
+compare actual and expected values 
+we need to generate report 
+Test suite 
+
+TestNG 
+Cucumber 
+
+problem : 
+
+1. if we find web elements in our test scripts, we need to find the same web elements multiple times
+in different scripts
+
+2. if the location of any webelement changes, we have to find it in different scripts and change 
+it
+
+10 - 60 
+
+
+seperating web elements from test scripts - object driven framework 
+page object model - is a non runnable that can have functions to find web elements 
+for every web page you are going to test  - you should have one page object model class
+that page object model class will have all the web elements of the page 
+constructor - to setup some initial value for an java object 
+
+
+
+
+
+seperating test data from test scripts - data driven framework 
+
+relative and absolute xpath
+implicit wait - thread.sleep 
+
+
+<input type="text" class="inputtext _58mg _5dba _2ph-" data-type="text" 
+name="firstname" value="" aria-required="true" placeholder="" 
+aria-label="First name" id="u_0_m" 
+
+relative xpath - double slash 
+
+//*[@id="u_0_m"]
+
+
+
+absolute xpath - single slash
+/html/body/div[1]/div[3]/div[1]/div/div/div/div[2]/div[2]/div/div[1]/div/div[1]/form/div[1]/div[1]/div[1]/div[1]/div/div[1]/input
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+

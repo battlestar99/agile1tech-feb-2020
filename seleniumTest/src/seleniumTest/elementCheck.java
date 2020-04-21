@@ -14,24 +14,24 @@ public class elementCheck {
 		
 		WebDriver driver = new ChromeDriver();
 		
+		pageHome ph= new pageHome(driver);
+		
 		driver.get("https://www.facebook.com");
 		
 		Thread.sleep(2000);
 		
-		WebElement firstName = driver.findElement(By.xpath("//*[@id=\"u_0_m\"]"));
+		ph.getFirstName().sendKeys("Michael");
+		ph.getLastName().sendKeys("Jackson");
 		
-		WebElement lastName = driver.findElement(By.xpath("//*[@id=\"u_0_o\"]"));
 		Thread.sleep(1000);
          
-		firstName.sendKeys("Michael");
 		
-		lastName.sendKeys("Jackson");
 		
 		Thread.sleep(1000);
 		
-		firstName.clear();
+		ph.getFirstName().clear();
 		
-		lastName.clear();
+		ph.getLastName().clear();
 		
 		Thread.sleep(1000);
 		
