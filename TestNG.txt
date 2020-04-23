@@ -80,6 +80,87 @@ public void beforetest(){
 
 
 
+TestNG - testing framework , testing library 
+
+what framework you used ? - TestNG, cucumber 
+what framework you created? - data driven, object driven, hybrid framework 
+
+data driven framework - Test data - seperating test data from test scripts
+keyword driven framework - Non-Test data - seperationg non-test data from test scripts 
+
+xpath, id, name - object driven framework 
+
+TestNG 
+
+setup - testng jar file +  testNG plugin for eclipse 
+
+Annotations - segment our code in different functions using the annotations 
+
+@BeforeTest - pre-requirment 
+public void beforetst(){}
+@Test public void validateLogin(){}
+@Test
+@Test
+@Aftertest - post requirment test 
+
+Test scripts - one java class 
+
+multipe test or multipe test cases 
+
+@Test 
+
+@BeforeMethod
+@AfterMethod 
+
+3 tests - 3 times - 3 times 
+
+@BeforeSuite
+@Beforeclass
+@Beforetest
+@Beforemethod 
+
+
+@AfterSuite
+@BeforeClass
+@AfterClass
+
+
+expected value - requirements , user stories 
+
+actual value - what you get from the test 
+
+compare actual with expected
+
+actual = expected - test pass
+actual not equal to expected - test fail 
+
+assertionequals("expected value","actual value")
+
+Test suite - xml file 
+
+TestNG XML 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
