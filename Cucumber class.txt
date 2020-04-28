@@ -1,0 +1,125 @@
+Good Afternoon 
+
+Class will start 06:10 PM 
+
+Monday 06:10 - 09:00 
+750 - 820 
+
+paremeterized testing - 
+
+
+TestNG - writing our code in technical language - programmers 
+
+framework - skeleton - structure 
+
+java - selenium webdriver 
+
+Cucumber - BDD 
+
+
+organizing our code - annotations , steps def
+pass/fail scenerio - assertions 
+create report - 
+test suite - 
+UFT - 
+java - 
+selenium webdriver - interact with web browser - 
+
+TestNG 
+
+Cucumber - 
+
+Cucumber - Behaviour driven development - BDD 
+
+1. testing the behaviour of the application 
+2. bridge between technical and non-tecnical testing 
+
+navigating to the url 
+click on the signup button 
+
+non technical - feature file 
+technical - step def
+
+cucumber setup - 
+
+testing library - jar file/s , plugin 
+
+@Test 
+
+feature file - non technical 
+
+gherkin language - test scenerio - multiple steps 
+
+feature - what feature we are going to test
+scenerio - the specific scnerio for the feature 
+
+given prerequirment of the test 
+when is the action 
+then is behavoiour of the application 
+and is adding more steps to when and then
+but is when we can expect to have something negative 
+
+given user is on the login page 
+when user enters valid username
+and user enters valid password
+and user clicks on the sign in button
+then user should be able to login 
+
+
+Scenario: testing the login with invalid credentials 
+   
+   Given user is in the login page 
+   When user enters invalid username
+   And user enters invalid password
+   And user clicks on the login button
+   Then user should not be able to login 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+step def - technical file we create using java and selenium library 
+
+
+
+
+
+
+Class will start 08:20 PM 
+
+start the recording 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
