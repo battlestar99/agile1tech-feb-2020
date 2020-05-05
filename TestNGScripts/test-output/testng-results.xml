@@ -1,138 +1,161 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="8" passed="7">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression Test" duration-ms="17073" started-at="2020-04-23T00:43:05Z" finished-at="2020-04-23T00:43:22Z">
+  <suite name="Regression Test" duration-ms="34052" started-at="2020-05-05T00:40:46Z" finished-at="2020-05-05T00:41:20Z">
     <groups>
     </groups>
-    <test name="signup testing" duration-ms="17073" started-at="2020-04-23T00:43:05Z" finished-at="2020-04-23T00:43:22Z">
-      <class name="scripts.codeRun">
-        <test-method status="PASS" signature="beforetest()[pri:0, instance:scripts.codeRun@56f4468b]" name="beforetest" is-config="true" duration-ms="13" started-at="2020-04-22T20:43:05Z" finished-at="2020-04-22T20:43:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforetest -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:scripts.elementCheck@6cc4c815]" name="beforeTest" is-config="true" duration-ms="8105" started-at="2020-04-22T20:43:05Z" finished-at="2020-04-22T20:43:13Z">
+    <test name="insta test data - 1" duration-ms="8955" started-at="2020-05-05T00:40:46Z" finished-at="2020-05-05T00:40:55Z">
+      <class name="scripts.instragramTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:scripts.instragramTest@5d5eef3d]" name="beforeTest" is-config="true" duration-ms="7001" started-at="2020-05-04T20:40:46Z" finished-at="2020-05-04T20:40:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforetest()[pri:0, instance:scripts.testRun@3a82f6ef]" name="beforetest" is-config="true" duration-ms="1" started-at="2020-04-22T20:43:13Z" finished-at="2020-04-22T20:43:13Z">
+        <test-method status="PASS" signature="instaSignup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts.instragramTest@5d5eef3d]" name="instaSignup" duration-ms="942" started-at="2020-05-04T20:40:53Z" finished-at="2020-05-04T20:40:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[43232432]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Mike jordan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mike.jordan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[dfas++]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforetest -->
-        <test-method status="PASS" signature="beforemethod()[pri:0, instance:scripts.codeRun@56f4468b]" name="beforemethod" is-config="true" duration-ms="1" started-at="2020-04-22T20:43:13Z" finished-at="2020-04-22T20:43:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method status="PASS" signature="atest()[pri:0, instance:scripts.codeRun@56f4468b]" name="atest" duration-ms="11" started-at="2020-04-22T20:43:13Z" finished-at="2020-04-22T20:43:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- atest -->
-        <test-method status="PASS" signature="aftermethod()[pri:0, instance:scripts.codeRun@56f4468b]" name="aftermethod" is-config="true" duration-ms="1" started-at="2020-04-22T20:43:13Z" finished-at="2020-04-22T20:43:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftermethod -->
-        <test-method status="PASS" signature="btest()[pri:0, instance:scripts.codeRun@56f4468b]" name="btest" duration-ms="2" started-at="2020-04-22T20:43:13Z" finished-at="2020-04-22T20:43:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- btest -->
-        <test-method status="PASS" signature="beforemethod()[pri:0, instance:scripts.codeRun@56f4468b]" name="beforemethod" is-config="true" duration-ms="0" started-at="2020-04-22T20:43:13Z" finished-at="2020-04-22T20:43:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method status="PASS" signature="aftermethod()[pri:0, instance:scripts.codeRun@56f4468b]" name="aftermethod" is-config="true" duration-ms="0" started-at="2020-04-22T20:43:13Z" finished-at="2020-04-22T20:43:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftermethod -->
-        <test-method status="PASS" signature="ctest()[pri:0, instance:scripts.codeRun@56f4468b]" name="ctest" duration-ms="3" started-at="2020-04-22T20:43:13Z" finished-at="2020-04-22T20:43:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ctest -->
-        <test-method status="PASS" signature="beforemethod()[pri:0, instance:scripts.codeRun@56f4468b]" name="beforemethod" is-config="true" duration-ms="0" started-at="2020-04-22T20:43:13Z" finished-at="2020-04-22T20:43:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method status="PASS" signature="aftermethod()[pri:0, instance:scripts.codeRun@56f4468b]" name="aftermethod" is-config="true" duration-ms="0" started-at="2020-04-22T20:43:13Z" finished-at="2020-04-22T20:43:13Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftermethod -->
-        <test-method status="PASS" signature="aftertest()[pri:0, instance:scripts.codeRun@56f4468b]" name="aftertest" is-config="true" duration-ms="0" started-at="2020-04-22T20:43:20Z" finished-at="2020-04-22T20:43:20Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- aftertest -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:scripts.elementCheck@6cc4c815]" name="afterTest" is-config="true" duration-ms="1174" started-at="2020-04-22T20:43:20Z" finished-at="2020-04-22T20:43:22Z">
+        </test-method> <!-- instaSignup -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:scripts.instragramTest@5d5eef3d]" name="afterTest" is-config="true" duration-ms="983" started-at="2020-05-04T20:40:54Z" finished-at="2020-05-04T20:40:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="aftertest()[pri:0, instance:scripts.testRun@3a82f6ef]" name="aftertest" is-config="true" duration-ms="0" started-at="2020-04-22T20:43:22Z" finished-at="2020-04-22T20:43:22Z">
+      </class> <!-- scripts.instragramTest -->
+    </test> <!-- insta test data - 1 -->
+    <test name="insta test data - 2" duration-ms="8540" started-at="2020-05-05T00:40:55Z" finished-at="2020-05-05T00:41:04Z">
+      <class name="scripts.instragramTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:scripts.instragramTest@68be2bc2]" name="beforeTest" is-config="true" duration-ms="6201" started-at="2020-05-04T20:40:55Z" finished-at="2020-05-04T20:41:02Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- aftertest -->
-      </class> <!-- scripts.codeRun -->
-      <class name="scripts.testRun">
-        <test-method status="PASS" signature="validateUrl()[pri:1, instance:scripts.testRun@3a82f6ef]" name="validateUrl" duration-ms="1" started-at="2020-04-22T20:43:17Z" finished-at="2020-04-22T20:43:17Z">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="instaSignup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts.instragramTest@68be2bc2]" name="instaSignup" duration-ms="978" started-at="2020-05-04T20:41:02Z" finished-at="2020-05-04T20:41:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[432365]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bob vance]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[bob.vance]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[dfas++]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateUrl -->
-        <test-method status="PASS" signature="validateTitle()[pri:2, instance:scripts.testRun@3a82f6ef]" name="validateTitle" duration-ms="2" started-at="2020-04-22T20:43:20Z" finished-at="2020-04-22T20:43:20Z">
+        </test-method> <!-- instaSignup -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:scripts.instragramTest@68be2bc2]" name="afterTest" is-config="true" duration-ms="1358" started-at="2020-05-04T20:41:03Z" finished-at="2020-05-04T20:41:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateTitle -->
-        <test-method status="PASS" signature="validateTextPresnt()[pri:3, instance:scripts.testRun@3a82f6ef]" name="validateTextPresnt" duration-ms="3" started-at="2020-04-22T20:43:20Z" finished-at="2020-04-22T20:43:20Z">
+        </test-method> <!-- afterTest -->
+      </class> <!-- scripts.instragramTest -->
+    </test> <!-- insta test data - 2 -->
+    <test name="insta test data - 3" duration-ms="7857" started-at="2020-05-05T00:41:04Z" finished-at="2020-05-05T00:41:12Z">
+      <class name="scripts.instragramTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:scripts.instragramTest@7823a2f9]" name="beforeTest" is-config="true" duration-ms="6090" started-at="2020-05-04T20:41:04Z" finished-at="2020-05-04T20:41:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateTextPresnt -->
-      </class> <!-- scripts.testRun -->
-      <class name="scripts.elementCheck">
-        <test-method status="PASS" signature="validateElementPresent()[pri:1, instance:scripts.elementCheck@6cc4c815]" name="validateElementPresent" duration-ms="4261" started-at="2020-04-22T20:43:13Z" finished-at="2020-04-22T20:43:17Z">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="instaSignup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts.instragramTest@7823a2f9]" name="instaSignup" duration-ms="927" started-at="2020-05-04T20:41:10Z" finished-at="2020-05-04T20:41:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123457]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[josh randor]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[josh.ran]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[dfas++]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateElementPresent -->
-        <test-method status="FAIL" signature="validateMessangerURL()[pri:2, instance:scripts.elementCheck@6cc4c815]" name="validateMessangerURL" duration-ms="3428" started-at="2020-04-22T20:43:17Z" finished-at="2020-04-22T20:43:20Z">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [https://www.mess.com/] but found [https://www.messenger.com/]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [https://www.mess.com/] but found [https://www.messenger.com/]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:190)
-	at org.testng.Assert.assertEquals(Assert.java:200)
-	at scripts.elementCheck.validateMessangerURL(elementCheck.java:59)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:756)
-	at org.testng.TestRunner.run(TestRunner.java:610)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
-	at org.testng.TestNG.runSuites(TestNG.java:1133)
-	at org.testng.TestNG.run(TestNG.java:1104)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        </test-method> <!-- instaSignup -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:scripts.instragramTest@7823a2f9]" name="afterTest" is-config="true" duration-ms="837" started-at="2020-05-04T20:41:11Z" finished-at="2020-05-04T20:41:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateMessangerURL -->
-      </class> <!-- scripts.elementCheck -->
-    </test> <!-- signup testing -->
+        </test-method> <!-- afterTest -->
+      </class> <!-- scripts.instragramTest -->
+    </test> <!-- insta test data - 3 -->
+    <test name="insta test data - 4" duration-ms="8643" started-at="2020-05-05T00:41:12Z" finished-at="2020-05-05T00:41:20Z">
+      <class name="scripts.instragramTest">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:scripts.instragramTest@6767c1fc]" name="beforeTest" is-config="true" duration-ms="6679" started-at="2020-05-04T20:41:12Z" finished-at="2020-05-04T20:41:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="instaSignup(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:scripts.instragramTest@6767c1fc]" name="instaSignup" duration-ms="1050" started-at="2020-05-04T20:41:19Z" finished-at="2020-05-04T20:41:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[123657]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mike mclinton]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mike.mc]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[sfdlkj123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instaSignup -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:scripts.instragramTest@6767c1fc]" name="afterTest" is-config="true" duration-ms="911" started-at="2020-05-04T20:41:20Z" finished-at="2020-05-04T20:41:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- scripts.instragramTest -->
+    </test> <!-- insta test data - 4 -->
   </suite> <!-- Regression Test -->
 </testng-results>

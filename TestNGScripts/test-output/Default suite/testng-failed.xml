@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="scripts.elementCheck">
+      <class name="scripts.instragramTest">
         <methods>
-          <include name="afterTest"/>
+          <include name="instaSignup"/>
           <include name="beforeTest"/>
-          <include name="validateMessangerURL"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- scripts.elementCheck -->
+      </class> <!-- scripts.instragramTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

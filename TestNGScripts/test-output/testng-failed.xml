@@ -1,29 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Regression Test]">
-  <test name="signup testing(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="scripts.codeRun">
+      <class name="scripts.instragramTest">
         <methods>
-          <include name="aftertest"/>
-          <include name="beforetest"/>
-          <include name="beforemethod"/>
-          <include name="aftermethod"/>
-        </methods>
-      </class> <!-- scripts.codeRun -->
-      <class name="scripts.elementCheck">
-        <methods>
-          <include name="afterTest"/>
+          <include name="instaSignup"/>
           <include name="beforeTest"/>
-          <include name="validateMessangerURL"/>
+          <include name="afterTest"/>
         </methods>
-      </class> <!-- scripts.elementCheck -->
-      <class name="scripts.testRun">
-        <methods>
-          <include name="aftertest"/>
-          <include name="beforetest"/>
-        </methods>
-      </class> <!-- scripts.testRun -->
+      </class> <!-- scripts.instragramTest -->
     </classes>
-  </test> <!-- signup testing(failed) -->
-</suite> <!-- Failed suite [Regression Test] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

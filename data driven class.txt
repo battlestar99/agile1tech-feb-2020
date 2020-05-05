@@ -1,0 +1,71 @@
+Good Afternoon 
+
+Class will start 06:10 PM 
+
+data driven testing - 
+cucumber - TestNG 
+
+java - selenium 
+web interaction - selenium - writing java program 
+
+TestNG - annotations, xml-suite, results, priority, depends on method, assertions, data driven testing 
+
+Cucumber - gherkin language, feature - non technical, step def - implementation of the feature 
+you can not implement same step multiple times - 
+
+gherkin keyword 
+test step
+
+given user is on the home page
+
+@Given("user is on the home page")
+
+
+seperating test scripts from web objects/web elements - object driven framework 
+
+seperatin test script from test data - data driven framework
+
+test data is data for testing 
+
+5-10 characters
+10-20 characters 
+
+20-30 test data - 
+
+10 characters - 9 characters - 11 characters  
+
+301-747-597768
+
+
+TestRunner - suite - report
+
+tags - how to specify which tests to run 
+
+hooks - before/after
+
+background - gets executed before each scnerio within a feature 
+
+Class will start 08:15 PM 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="Regression Test">
+
+<test name="insta test data - 1">
+<parameter name="mobile" value="43232432"/>
+<parameter name="fullname" value="Mike jordan"/>
+<parameter name="username" value="mike.jordan"/>
+<parameter name="password" value="dfas++"/>
+<parameter name="expecteddata" value="www.google.com"/>
+
+<classes>
+
+<class name="scripts.instragramTest"></class>
+</classes>
+</test>
+
+<test name="insta test data - 2">
+<parameter name="mobile" value="432365"/>
+<parameter name="fullname" value="bob vance"/>
+<parameter name="username" value="bob.vance"/>
+<parameter name="password" value="dfas++"/>
+<parameter name="expecteddata" value="www.facebook.com"/>
+
+<classes>
+
+<class name="scripts.instragramTest"></class>
+</classes>
+</test>
+
+
+
+<test name="insta test data - 3">
+<parameter name="mobile" value="123457"/>
+<parameter name="fullname" value="josh randor"/>
+<parameter name="username" value="josh.ran"/>
+<parameter name="password" value="dfas++"/>
+
+<classes>
+
+<class name="scripts.instragramTest"></class>
+</classes>
+</test>
+
+
+
+<test name="insta test data - 4">
+<parameter name="mobile" value="123657"/>
+<parameter name="fullname" value="mike mclinton"/>
+<parameter name="username" value="mike.mc"/>
+<parameter name="password" value="sfdlkj123"/>
+
+<classes>
+
+<class name="scripts.instragramTest"></class>
+</classes>
+</test>
+
+
+</suite>
