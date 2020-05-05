@@ -45,7 +45,25 @@ hooks - before/after
 
 background - gets executed before each scnerio within a feature 
 
-Class will start 08:15 PM 
+
+TestNG data driven framework 
+
+data driven seperating test scripts from test data 
+
+TestNG XML - parameterization 
+
+if(browser=chrome) 
+
+we are going to open up 
+driver = chrome
+
+if browser= mozile
+
+driver = mozila 
+
+
+
+
 
 
 
