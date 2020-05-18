@@ -1,0 +1,96 @@
+
+How to manage code when working in a team? 
+
+Why to use Maven? 
+
+
+What is git and github, commands? 
+
+
+What is CI/CD, why to use jenkins? 
+
+
+
+
+
+
+
+
+Good Afternoon 
+Class will start 06:10 PM 
+
+1. we need to share our code - git/github 
+
+2. we need a project that is shareble - everyone using the same version of library - needs to be imporable
+
+
+3. remote server - CI/CD - jenkins
+
+DevOps - 
+developer - develop the code
+tester - testing the code or the application
+devops - code mangement and application managment 
+
+SDET - 
+qa analyst, automation tester, qa engineer 
+
+
+Maven - build managment tool for our code , gradle, ant 
+
+compile - syntax error -.jave file compile - .class file is created 
+run - 
+
+build management system by creating a maven project 
+
+maven is also a repository system - all java library - 95% of java library 
+
+iphone - appstore 
+android - play store 
+
+plan to run your code from command line 
+
+5 testers - 3 automatoin testers 
+
+you have to work in same project - same one project 
+
+pom.xml
+project object model - the control center of maven project or heart of maven project 
+
+
+quickstart - 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

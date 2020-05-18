@@ -1,0 +1,120 @@
+OOP -  
+
+object oriented programming 
+
+java , C# 
+
+class - object is the center of our programming paradigm 
+
+class - main method of java - procedural programming - line after line - java application 
+
+class - non-runnable class - not having the main method - OOP 
+storage of functions 
+
+
+design or prototype of an object/ any number of objects 
+
+class - functions, properties 
+
+it can do something - functions 
+it has some attributes - properties 
+
+
+
+car 
+
+int mileage; 
+go()
+assert.assertequals()
+
+class
+object
+local variables
+global variables
+functions and properties 
+this keyword
+static 
+constructor overloading 
+method/function overloading 
+
+access modifier - how we can access a function or properties outside of the class 
+
+public - works everywhere 
+private - only works within the class
+protected - works within class and outside of the class but inside the same package
+no modifier - protected 
+
+inside the same class - public, private, protected 
+outside the class but inside the package - public, no private, protected
+outside the class also outside the pacakge - public, no private, no protected 
+
+Relation between classes - 
+
+inheritance - one class can inherit the properties and function of other class 
+
+parent class - super class
+child class - sub class 
+
+sub class gets everything from super class, but super class doesn't get anything from sub class 
+
+multiple inheritance 
+
+
+car - superclass
+honda - subclass 
+accord - subclass of honda 
+
+
+
+
+abstract class - we can not create any object of the abstract class, and we can only use through
+their sub class 
+
+interface - create an outline for set of classes
+
+webdriver is an interface 
+
+chromedriver, mozila driver, ie driver all implementing the webdriver interface 
+
+
+webdriver 
+chromdriver - sendkeys 
+
+iedriver - sendkeys  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
