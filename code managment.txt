@@ -60,16 +60,72 @@ project object model - the control center of maven project or heart of maven pro
 quickstart - 
 
 
+github - web repository 
+
+git - version control tool, push and update our code 
+
+git repository - a folder that we are tracking for any changes 
+
+local git repository - in our local computer 
+
+remote git repository - github, bitbucket 
+
+git init 
+
+git status 
+git add * 
+git commit -m "message"
+
+
+git config email "test@test.com'
+git config name "michael"
+
+
+local has update file - remote has not - git push 
+
+push the local to update the remote 
+
+remote has update file - that local does not have - git pull 
+
+push updating the remote 
+pull updating the local 
+
+if remote has updates that local doesn't have - you must have to pull first 
+
+git status
+git add * 
+git commit -m "message"
+git push -u origin master
+git pull 
+
+some other command 
+git init
+git remote add origin http://www.something
 
 
 
+want to have repo in your local - 
 
+download / clone 
 
+download - will not make the folder a git repo 
 
+git init
+git 
 
+Jenkins CI/CD 
 
+jenkins in your local computer - jenkins can run code locally 
 
+jenkins is setup in remote - 
 
+CI/CD - 
+
+triggering condition - developer push new code to the repo
+
+pushing it to the repository - jenkins is fetching the code from the repo and run it in the server 
+
+run the tests in the local machine and push the code to the repo 
 
 
 
